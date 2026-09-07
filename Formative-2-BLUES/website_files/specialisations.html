@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Software Explorer - Specialisations</title>
+    <meta name="description" content="Explore the four Software Engineering specialisation paths, their courses and career opportunities.">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <div class="container">
+
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Software Explorer logo">
+                <span class="logo-text">Software <span>Explorer</span></span>
+            </a>
+
+            <nav class="main-nav">
+
+                <a href="index.html">Home</a>
+
+                <a href="assessment.html">Quiz</a>
+
+                <a href="specialisations.html" class="active">
+                    Specialisations
+                </a>
+
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-intro">
+
+            <div class="container">
+
+                <h2>Explore the Specialisations</h2>
+
+                <p>
+                    Click "Explore" on any card to see courses,
+                    skills and career paths for that specialisation.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="specialisation-grid container">
+
+            <!-- Low-Level Programming -->
+            <article
+                id="low-level"
+                class="specialisation"
+            >
+
+                <div class="spec-visual">
+                    <img
+                        src="images/low-level.jpg"
+                        alt="Close-up of low-level code on a screen"
+                    >
+                    <h3>Low-Level Programming</h3>
+                    <button
+                        type="button"
+                        class="button spec-explore-btn"
+                        data-target="low-level-details"
+                        aria-expanded="false"
+                    >
+                        Explore
+                    </button>
+                </div>
+
+                <div id="low-level-details" class="spec-details">
+
+                    <p>
+                        Learn how computers work beneath the
+                        surface - from memory and processors to
+                        the operating systems that manage them.
+                        This path suits students who enjoy
+                        precision, performance and understanding
+                        exactly what their code is doing.
+                    </p>
+
+                    <h4>Core Courses</h4>
+                    <ul>
+                        <li>C and C++ Programming</li>
+                        <li>Operating Systems</li>
+                        <li>Computer Architecture & Memory Management</li>
+                        <li>Embedded Systems</li>
+                    </ul>
+
+                    <h4>Career Paths</h4>
+                    <div class="career-tags">
+                        <span>Systems Engineer</span>
+                        <span>Firmware Developer</span>
+                        <span>Embedded Software Engineer</span>
+                        <span>Performance Engineer</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- AR/VR -->
+            <article
+                id="arvr"
+                class="specialisation"
+            >
+
+                <div class="spec-visual">
+                    <img
+                        src="images/arvr.jpg"
+                        alt="A student wearing a VR headset interacting with a virtual interface"
+                    >
+                    <h3>AR/VR</h3>
+                    <button
+                        type="button"
+                        class="button spec-explore-btn"
+                        data-target="arvr-details"
+                        aria-expanded="false"
+                    >
+                        Explore
+                    </button>
+                </div>
+
+                <div id="arvr-details" class="spec-details">
+
+                    <p>
+                        Create interactive and immersive digital
+                        experiences that blend the real and
+                        virtual worlds. This path suits students
+                        who enjoy 3D design, spatial thinking and
+                        building experiences people can step into.
+                    </p>
+
+                    <h4>Core Courses</h4>
+                    <ul>
+                        <li>3D Development & Game Engines</li>
+                        <li>Virtual Reality Design</li>
+                        <li>Augmented Reality Development</li>
+                        <li>Human-Computer Interaction</li>
+                    </ul>
+
+                    <h4>Career Paths</h4>
+                    <div class="career-tags">
+                        <span>AR/VR Developer</span>
+                        <span>Game Developer</span>
+                        <span>3D Interaction Designer</span>
+                        <span>Simulation Engineer</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Full-Stack Development -->
+            <article
+                id="full-stack"
+                class="specialisation"
+            >
+
+                <div class="spec-visual">
+                    <img
+                        src="images/fullstack.jpg"
+                        alt="Illustration of a developer working on a web application with HTML and CSS panels"
+                    >
+                    <h3>Full-Stack Development</h3>
+                    <button
+                        type="button"
+                        class="button spec-explore-btn"
+                        data-target="fullstack-details"
+                        aria-expanded="false"
+                    >
+                        Explore
+                    </button>
+                </div>
+
+                <div id="fullstack-details" class="spec-details">
+
+                    <p>
+                        Build complete web applications from
+                        front-end to back-end. This path suits
+                        students who like seeing a project come
+                        together end-to-end, from what users see
+                        to how their data is stored and served.
+                    </p>
+
+                    <h4>Core Courses</h4>
+                    <ul>
+                        <li>HTML, CSS and JavaScript</li>
+                        <li>Backend Development & APIs</li>
+                        <li>Databases</li>
+                        <li>Cloud Deployment</li>
+                    </ul>
+
+                    <h4>Career Paths</h4>
+                    <div class="career-tags">
+                        <span>Full-Stack Developer</span>
+                        <span>Front-End Engineer</span>
+                        <span>Back-End Engineer</span>
+                        <span>Product Engineer</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Machine Learning -->
+            <article
+                id="machine-learning"
+                class="specialisation"
+            >
+
+                <div class="spec-visual">
+                    <img
+                        src="images/ml.jpg"
+                        alt="A glowing digital brain hologram above a computer chip, representing machine learning"
+                    >
+                    <h3>Machine Learning</h3>
+                    <button
+                        type="button"
+                        class="button spec-explore-btn"
+                        data-target="ml-details"
+                        aria-expanded="false"
+                    >
+                        Explore
+                    </button>
+                </div>
+
+                <div id="ml-details" class="spec-details">
+
+                    <p>
+                        Use data and algorithms to create
+                        intelligent systems. This path suits
+                        students who enjoy mathematics, statistics
+                        and finding patterns hidden inside data.
+                    </p>
+
+                    <h4>Core Courses</h4>
+                    <ul>
+                        <li>Python for Data Science</li>
+                        <li>Data Analysis & Statistics</li>
+                        <li>Algorithms</li>
+                        <li>Artificial Intelligence & Deep Learning</li>
+                    </ul>
+
+                    <h4>Career Paths</h4>
+                    <div class="career-tags">
+                        <span>Machine Learning Engineer</span>
+                        <span>Data Scientist</span>
+                        <span>AI Researcher</span>
+                        <span>Data Analyst</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-about">
+
+                <h2>Software Explorer</h2>
+
+                <p>
+                    Helping BSE students explore their
+                    future specialisations.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="assessment.html">
+                    Quiz
+                </a>
+
+                <a href="specialisations.html">
+                    Specialisations
+                </a>
+
+                <a href="contact.html">
+                    Contact & Feedback
+                </a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Explore</h3>
+
+                <a href="#low-level">
+                    Low-Level Programming
+                </a>
+
+                <a href="#arvr">
+                    AR/VR
+                </a>
+
+                <a href="#full-stack">
+                    Full-Stack Development
+                </a>
+
+                <a href="#machine-learning">
+                    Machine Learning
+                </a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Connect</h3>
+
+                <a href="contact.html">
+                    Send Feedback
+                </a>
+
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 Software Explorer.
+                All rights reserved.
+            </p>
+
+            <p>
+                Built for BSE Students
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Specialisation "Explore" card logic -->
+    <script src="js/specialisations.js"></script>
+
+</body>
+
+</html>
