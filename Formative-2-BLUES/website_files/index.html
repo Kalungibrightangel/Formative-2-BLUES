@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Software Explorer - Home</title>
+    <meta name="description" content="Software Explorer helps new BSE students discover the specialisation that matches their strengths and interests.">
+
+    <!-- Favicon: the Software Explorer logo mark shown in the browser tab -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts: Poppins for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header and main navigation -->
+    <header class="site-header">
+
+        <div class="container">
+
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Software Explorer logo">
+                <span class="logo-text">Software <span>Explorer</span></span>
+            </a>
+
+            <nav class="main-nav">
+
+                <a href="index.html" class="active">Home</a>
+
+                <a href="assessment.html">Quiz</a>
+
+                <a href="specialisations.html">
+                    Specialisations
+                </a>
+
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Welcome section -->
+        <section class="welcome">
+
+            <div class="container">
+
+                <h2>
+                    Explore Your Passion in
+                    <span>Software Engineering</span>
+                </h2>
+
+                <p>
+                    Welcome! Explore and discover the
+                    specialisation that best matches your
+                    interests, strengths and goals.
+                </p>
+
+                <a
+                    href="#student-details"
+                    class="button"
+                >
+                    Start Exploring
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- "Don't get confused" guide section -->
+        <section class="guide-section">
+
+            <div class="container">
+
+                <div class="guide-image">
+                    <img
+                        src="images/confused-student.jpg"
+                        alt="A student looking confused while trying to choose between different software engineering specialisations"
+                    >
+                </div>
+
+                <div class="guide-text">
+
+                    <h2>Feeling Unsure About Your Path?</h2>
+
+                    <p>
+                        Choosing a specialisation can feel
+                        overwhelming when there are so many
+                        exciting directions to take. Low-level
+                        programming, AR/VR, full-stack
+                        development, machine learning - where
+                        do you even start?
+                    </p>
+
+                    <p class="guide-tagline">
+                        Don't get confused, Software Explorer
+                        is here to guide you.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Student information -->
+        <section
+            id="student-details"
+            class="student-details"
+        >
+
+            <div class="container">
+
+                <h2>Tell Us About Yourself</h2>
+
+                <p>
+                    Enter your details before starting
+                    the assessment.
+                </p>
+
+                <form id="student-form" novalidate>
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                    >
+
+                    <small
+                        id="name-error"
+                        class="error-message">
+                    </small>
+
+
+                    <label for="student-id">
+                        Student ID
+                    </label>
+
+                    <input
+                        type="text"
+                        id="student-id"
+                        name="student-id"
+                        placeholder="Example: 2026/BSE/001"
+                    >
+
+                    <small
+                        id="student-id-error"
+                        class="error-message">
+                    </small>
+
+
+                    <label for="email">
+                        Institutional Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="student.id@bse.ac.mu"
+                    >
+
+                    <small
+                        id="email-error"
+                        class="error-message">
+                    </small>
+
+
+                    <label for="phone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                    >
+
+                    <small
+                        id="phone-error"
+                        class="error-message">
+                    </small>
+
+
+                    <label for="year">
+                        Year of Study
+                    </label>
+
+                    <select id="year" name="year">
+
+                        <option value="">
+                            Select your year
+                        </option>
+
+                        <option value="1">
+                            Year 1
+                        </option>
+
+                        <option value="2">
+                            Year 2
+                        </option>
+
+                        <option value="3">
+                            Year 3
+                        </option>
+
+                        <option value="4">
+                            Year 4
+                        </option>
+
+                    </select>
+
+                    <small
+                        id="year-error"
+                        class="error-message">
+                    </small>
+
+
+                    <button type="submit">
+                        Start Assessment
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- How the application works -->
+        <section class="how-it-works">
+
+            <div class="container">
+
+                <h2>How Software Explorer Works</h2>
+
+                <div class="steps">
+
+                    <article>
+                        <h3>01</h3>
+                        <h4>Tell Us About Yourself</h4>
+
+                        <p>
+                            Provide some basic information
+                            about yourself.
+                        </p>
+                    </article>
+
+
+                    <article>
+                        <h3>02</h3>
+                        <h4>Take the Assessment</h4>
+
+                        <p>
+                            Answer interactive questions
+                            about your interests and goals.
+                        </p>
+                    </article>
+
+
+                    <article>
+                        <h3>03</h3>
+                        <h4>Discover Your Path</h4>
+
+                        <p>
+                            Receive a personalised
+                            specialisation recommendation.
+                        </p>
+                    </article>
+
+
+                    <!-- Contact step, added alongside the process
+                         so students know where to send questions -->
+                    <a href="contact.html" class="step-link">
+                        <article>
+                            <h3>04</h3>
+                            <h4>Contact & Feedback</h4>
+
+                            <p>
+                                Have a question or suggestion?
+                                Get in touch with us any time.
+                            </p>
+                        </article>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Website footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <!-- Website information -->
+            <div class="footer-about">
+
+                <h2>Software Explorer</h2>
+
+                <p>
+                    Helping BSE students explore their
+                    strengths, interests and future
+                    specialisations.
+                </p>
+
+            </div>
+
+
+            <!-- Quick navigation -->
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="assessment.html">
+                    Quiz
+                </a>
+
+                <a href="specialisations.html">
+                    Specialisations
+                </a>
+
+                <a href="contact.html">
+                    Contact & Feedback
+                </a>
+
+            </div>
+
+
+            <!-- Explore navigation -->
+            <div class="footer-links">
+
+                <h3>Explore</h3>
+
+                <a href="specialisations.html#low-level">
+                    Low-Level Programming
+                </a>
+
+                <a href="specialisations.html#arvr">
+                    AR/VR
+                </a>
+
+                <a href="specialisations.html#full-stack">
+                    Full-Stack Development
+                </a>
+
+                <a href="specialisations.html#machine-learning">
+                    Machine Learning
+                </a>
+
+            </div>
+
+
+            <!-- Contact links -->
+            <div class="footer-links">
+
+                <h3>Connect</h3>
+
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    GitHub
+                </a>
+
+                <a href="contact.html">
+                    Send Feedback
+                </a>
+
+                <a href="contact.html">
+                    About the Developer
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 Software Explorer.
+                All rights reserved.
+            </p>
+
+            <p>
+                Built for BSE Students
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Student form validation -->
+    <script src="js/validation.js"></script>
+
+</body>
+
+</html>
